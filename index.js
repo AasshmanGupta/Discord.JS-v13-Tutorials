@@ -6,7 +6,7 @@ client.on("ready", () => {
 })
 
 client.on("messageCreate", (message) => {
-    const prefix = "-"
+    const prefix = "="
     if (!message.content.startsWith(prefix)) return;
 
     const messageArray = message.content.split(" ");
